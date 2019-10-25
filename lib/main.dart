@@ -74,6 +74,7 @@ class MyHomePageState extends State<MyHomePage>
                             return Card(
                               child:ListTile(
                                 title: Text(chat1.message),
+                                subtitle: Text(chat1.dateOfPost),
                               ),
 
                             );
